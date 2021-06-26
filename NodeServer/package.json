@@ -1,0 +1,48 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "./node_modules/.bin/eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "@stripe/stripe-js": "^1.15.1",
+    "aws-sdk": "^2.931.0",
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.19.4",
+    "paypal-rest-sdk": "^1.8.1",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.4",
+    "sib-api-v3-sdk": "^8.2.0",
+    "socket.io": "^3.1.2",
+    "stripe": "^8.156.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
