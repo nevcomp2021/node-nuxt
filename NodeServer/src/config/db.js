@@ -11,14 +11,14 @@ const pool = new pg.Pool({
   port: 5432,
 });
 
-// console.log(pool);
-// if(pool){ // mysql is started && connected successfully.
-//     console.log('Connection Success');
-// const data = (pool.query("Select * from users"))
-// console.log("this is data", data);
-//  }else{
-//     console.log('Cant connect to db, Check ur db connection');
-//  }
+// // console.log(pool);
+// // if(pool){ // mysql is started && connected successfully.
+// //     console.log('Connection Success');
+// // const data = (pool.query("Select * from users"))
+// // console.log("this is data", data);
+// //  }else{
+// //     console.log('Cant connect to db, Check ur db connection');
+// //  }
 
 // module.exports = pool;
 export default pool;
